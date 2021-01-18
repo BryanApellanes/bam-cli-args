@@ -1,0 +1,26 @@
+{
+  "name": "@bamapps/bam-cli-args",
+  "version": "0.0.1",
+  "description": "command line argument parser",
+  "main": "cli-args.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryanApellanes/bam-cli-args.git"
+  },
+  "author": "Bryan Apellanes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BryanApellanes/bam-cli-args/issues"
+  },
+  "homepage": "https://github.com/BryanApellanes/bam-cli-args#readme",
+  "devDependencies": {
+    "jasmine": "^3.6.3",
+    "jasmine-spec-reporter": "^6.0.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  }
+}
