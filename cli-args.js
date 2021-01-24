@@ -37,7 +37,7 @@ var cliArgs = (function () {
 
     return {
         parse: parseArgs,
-        args: parsed.args,
+        bamArgs: parsed.args,
         scriptInfo: function(){
             var scriptPath = process.argv[1];            
             var dirPath = path.dirname(scriptPath);
